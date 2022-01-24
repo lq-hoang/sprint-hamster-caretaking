@@ -3,14 +3,16 @@ hamsters, and daily tasks
 
 """
 class User:
-    def User(self):
+    def __init__(self):
         self.name = ""
         self.hamsters = []
 
     def get_name(self):
         return self.name
+
     def set_name(self, name):
         self.name = name
-    def get_Hamsters(self):
+
+    def get_hamsters(self):
         return self.hamsters
 
