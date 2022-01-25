@@ -46,3 +46,6 @@ class Hamster:
 
     def get_weight(self):
         return self.weight
+
+    def set_notes(self, new_note):
+        self.notes = new_note

@@ -2,7 +2,7 @@
 hamsters, and daily tasks
 
 """
-
+import Hamster
 
 class User:
     def __init__(self):
@@ -23,3 +23,6 @@ class User:
 
     def get_hamsters(self):
         return self.hamsters
+
+    def set_hamsters(self, new_list):
+        self.hamsters = new_list
