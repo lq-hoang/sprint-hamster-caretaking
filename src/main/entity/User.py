@@ -2,10 +2,18 @@
 hamsters, and daily tasks
 
 """
+
+
 class User:
     def __init__(self):
         self.name = ""
         self.hamsters = []
+        self.tasks = []
+
+    def __int__(self, name, hamsters, tasks):
+        self.name = name
+        self.hamsters = hamsters
+        self.tasks = tasks
 
     def get_name(self):
         return self.name
@@ -15,4 +23,3 @@ class User:
 
     def get_hamsters(self):
         return self.hamsters
-

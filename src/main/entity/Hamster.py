@@ -17,5 +17,32 @@ class Hamster:
                 "\nAge:", self.age, "\nWeight (g):", self.weight,
                 "\nNotes:", self.notes)
 
+    def set_name(self, new_name):
+        self.name = new_name
+
+    def get_name(self):
+        return self.name
+
+    def set_breed(self, new_breed):
+        self.breed = new_breed
+
+    def get_breed(self):
+        return self.breed
+
+    def set_sex(self, new_sex):
+        self.sex = new_sex
+
+    def get_sex(self):
+        return self.sex
+
+    def set_age(self, new_age):
+        self.age = new_age
+
+    def get_age(self):
+        return self.age
+
     def set_weight(self, new_weight):
-        self.weight= new_weight
+        self.weight = new_weight
+
+    def get_weight(self):
+        return self.weight
